@@ -54,12 +54,12 @@ module.exports = yeoman.Base.extend({
     this.website = this.props.website;
     this.humanizedWebsite = humanizeUrl(this.website);
 
-    this.template('.babelrc');
-    this.template('.editorconfig');
-    this.template('.eslintignore');
-    this.template('.eslintrc');
-    this.template('.gitattributes');
-    this.template('.gitignore');
+    this.template('babelrc', '.babelrc');
+    this.template('editorconfig', '.editorconfig');
+    this.template('eslintignore', '.eslintignore');
+    this.template('eslintrc', '.eslintrc');
+    this.template('gitattributes', '.gitattributes');
+    this.template('gitignore', '.gitignore');
     this.template('CHANGELOG.md');
     this.template('LICENSE');
     this.template('Makefile');
