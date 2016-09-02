@@ -1,6 +1,6 @@
 {
   "name": "generator-videojj-koa2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "koa2 scaffold",
   "homepage": "",
   "author": {
@@ -49,7 +49,7 @@
       "mocha": true
     }
   },
-  "repository": "pipi32167/generator-videojj-koa-2",
+  "repository": "https://github.com/pipi32167/generator-videojj-koa2",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"

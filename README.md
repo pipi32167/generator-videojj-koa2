@@ -1,13 +1,13 @@
-# generator-videojj-koa-2 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-videojj-koa2 [![NPM version][npm-image]][npm-url] 
 > 
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-videojj-koa-2 using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-videojj-koa2 using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-videojj-koa-2
+npm install -g generator-videojj-koa2
 ```
 
 Then generate your new project:
@@ -28,11 +28,5 @@ yo videojj-koa2
 Apache-2.0 © [Million]()
 
 
-[npm-image]: https://badge.fury.io/js/generator-videojj-koa-2.svg
-[npm-url]: https://npmjs.org/package/generator-videojj-koa-2
-[travis-image]: https://travis-ci.org/pipi32167/generator-videojj-koa-2.svg?branch=master
-[travis-url]: https://travis-ci.org/pipi32167/generator-videojj-koa-2
-[daviddm-image]: https://david-dm.org/pipi32167/generator-videojj-koa-2.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/pipi32167/generator-videojj-koa-2
-[coveralls-image]: https://coveralls.io/repos/pipi32167/generator-videojj-koa-2/badge.svg
-[coveralls-url]: https://coveralls.io/r/pipi32167/generator-videojj-koa-2
+[npm-image]: https://badge.fury.io/js/generator-videojj-koa2.svg
+[npm-url]: https://npmjs.org/package/generator-videojj-koa2
