@@ -13,7 +13,7 @@ npm install -g generator-videojj-koa-2
 Then generate your new project:
 
 ```bash
-yo videojj-koa-2
+yo videojj-koa2
 ```
 
 ## Getting To Know Yeoman
