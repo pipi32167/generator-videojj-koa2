@@ -60,6 +60,7 @@ module.exports = yeoman.Base.extend({
     this.template('eslintrc', '.eslintrc');
     this.template('gitattributes', '.gitattributes');
     this.template('gitignore', '.gitignore');
+    this.template('pre-push', '.pre-push');
     this.template('CHANGELOG.md');
     this.template('LICENSE');
     this.template('Makefile');
