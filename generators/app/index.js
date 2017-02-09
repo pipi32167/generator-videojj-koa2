@@ -69,6 +69,7 @@ module.exports = yeoman.Base.extend({
     this.template('ecosystem.json');
     this.template('gulpfile.js');
     this.template('package.json');
+    this.template('apidoc.json');
     this.directory('lib');
     this.directory('public');
     this.directory('views');
