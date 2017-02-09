@@ -1,7 +1,0 @@
-#!/bin/sh
-npm test
-RES=$?
-if [ $RES -ne 0  ]
-then
-  exit $RES
-fi
