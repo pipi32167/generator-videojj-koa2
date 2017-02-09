@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+cp .pre-push .git/hooks/pre-push
+
+OS=`node -e 'console.log(process.platform)'`
+
+case $OS in
+  'darwin' )
+    # do something under OSX
+    ;;
+  'linux' )
+    # do something under linux
+    ;;
+esac
