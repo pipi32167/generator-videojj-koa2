@@ -73,6 +73,7 @@ module.exports = yeoman.Base.extend({
     this.directory('public');
     this.directory('views');
     this.directory('bin');
+    this.directory('test');
   },
 
   install: function () {
