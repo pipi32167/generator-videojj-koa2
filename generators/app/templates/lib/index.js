@@ -6,9 +6,9 @@ import session from 'koa-session'
 import serve from 'koa-static'
 import views from 'koa-views'
 import convert from 'koa-convert'
-import './config'
-import errorHandler from './middlewares/errorHandler'
-import api from './api'
+import '/lib/config'
+import errorHandler from '/lib/middlewares/errorHandler'
+import api from '/lib/api'
 
 const app = new Koa()
 
