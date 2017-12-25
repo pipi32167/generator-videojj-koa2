@@ -1,6 +1,6 @@
-import Router from 'koa-router';
+const Router = require('koa-router')
 
-const router = new Router();
+const router = new Router()
 
 
 /**
@@ -11,7 +11,7 @@ const router = new Router();
  */
 
 router.get('/', async (ctx, next) => {
-  await ctx.render('index');
-});
+  await ctx.render('index')
+})
 
-export default router;
+export default router

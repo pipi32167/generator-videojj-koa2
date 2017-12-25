@@ -54,7 +54,6 @@ module.exports = yeoman.Base.extend({
     this.website = this.props.website;
     this.humanizedWebsite = humanizeUrl(this.website);
 
-    this.template('babelrc', '.babelrc');
     this.template('editorconfig', '.editorconfig');
     this.template('eslintignore', '.eslintignore');
     this.template('eslintrc', '.eslintrc');

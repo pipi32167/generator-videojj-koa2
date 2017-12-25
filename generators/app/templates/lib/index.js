@@ -1,14 +1,14 @@
-import path from 'path'
-import Koa from 'koa'
-import bodyParser from 'koa-bodyparser'
-import logger from 'koa-logger'
-import session from 'koa-session'
-import serve from 'koa-static'
-import views from 'koa-views'
-import convert from 'koa-convert'
-import '/lib/config'
-import errorHandler from '/lib/middlewares/errorHandler'
-import api from '/lib/api'
+const path = require('path')
+const Koa = require('koa')
+const bodyParser = require('koa-bodyparser')
+const logger = require('koa-logger')
+const session = require('koa-session')
+const serve = require('koa-static')
+const views = require('koa-views')
+const convert = require('koa-convert')
+require('/lib/config')
+const errorHandler = require('/lib/middlewares/errorHandler')
+const api = require('/lib/api')
 
 const app = new Koa()
 

@@ -1,5 +1,5 @@
-import co from 'co'
-import chai from 'chai'
+const co = require('co')
+const chai = require('chai')
 const { expect } = chai
 
 describe('Example test', function() {
