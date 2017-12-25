@@ -1,5 +1,5 @@
 /* eslint no-param-reassign: 0 */
-export default function finalHandler() {
+module.exports = function finalHandler() {
   return async (ctx, next) => {
     try {
       await next();

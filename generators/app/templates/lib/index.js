@@ -6,9 +6,9 @@ const session = require('koa-session')
 const serve = require('koa-static')
 const views = require('koa-views')
 const convert = require('koa-convert')
-require('/lib/config')
-const errorHandler = require('/lib/middlewares/errorHandler')
-const api = require('/lib/api')
+require('./config')
+const errorHandler = require('./middlewares/errorHandler')
+const api = require('./api')
 
 const app = new Koa()
 

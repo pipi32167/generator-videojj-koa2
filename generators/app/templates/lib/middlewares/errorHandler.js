@@ -1,6 +1,6 @@
 const env = process.env.NODE_ENV || 'development'
 
-export default () => {
+module.exports = () => {
   return async (ctx, next) => {
     try {
       await next()

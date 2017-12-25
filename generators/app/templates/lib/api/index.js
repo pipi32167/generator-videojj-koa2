@@ -14,4 +14,4 @@ router.get('/', async (ctx, next) => {
   await ctx.render('index')
 })
 
-export default router
+module.exports = router

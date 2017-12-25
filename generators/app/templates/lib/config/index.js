@@ -6,6 +6,6 @@ const baseConfig = {
   // configure base info here
 }
 
-export const config = Object.assign({}, baseConfig, require(path.join(__dirname, process.env.NODE_ENV + '.js')).default)
+const config = Object.assign({}, baseConfig, require(path.join(__dirname, process.env.NODE_ENV + '.js')).default)
 
 global.config = config
